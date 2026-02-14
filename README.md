@@ -19,7 +19,7 @@ The goal of this app is to show how markets have performed or will perform. The 
 
 <h2>Code Style</h2>
 
-This tool frequently uses pandas, numpy, streamlit, and altair. Any issues in code involving the former three packages are likely fixable using their respective online API references. Unfortunately, the altair online API reference is not incredibly helpful. Because of this, however, it seems many people have turned to trusty Stack Overflow for help. Familiarity with streamlit's session_state and selectbox behavior is important. For implementing future property types, the format of the data used in the application should at least follow the output of the get_industrial() function in main.py. Integrating new property types is even easier if their associated data follows the excel files called in the aforementioned function (the get_industrial() function could be easily modified to accomodate such formatted future data).
+This tool frequently uses pandas, numpy, streamlit, and altair. Any issues in code involving the former three packages are likely fixable using their respective online API references. Unfortunately, the altair online API reference is not incredibly helpful. Familiarity with streamlit's session_state and selectbox behavior is important. For implementing future property types, the format of the data used in the application should at least follow the output of the get_industrial() function in main.py. Integrating new property types is even easier if their associated data follows the excel files called in the aforementioned function (the get_industrial() function could be easily modified to accomodate such formatted future data).
 
 <h2>Build Status</h2>
 
@@ -38,7 +38,7 @@ Any data or features regarding Green Street are disabled since accurate past Gre
 
 <h2>Coding Framework</h2>
 
-Built using VSCode. Imported packages:
+Built using VSCode. See environment.yml for explicit installs. Imported packages:
 - pandas
 - numpy
 - streamlit
@@ -46,5 +46,6 @@ Built using VSCode. Imported packages:
 - snowflake
 
 <h2>Running the Market Rankings Tool</h2>
+
 
 With the above dependencies installed, open a terminal window, or use the in-IDE terminal. While in the 'Market Rankings' directory (use 'cd' command to navigate the directory), run the command 'streamlit run main.py'. If an error message says streamlit is not recognized, you may need to run main.py once (doing this will produce an error, but the CLI streamlit command will now work). This will open the app in the default browser. From here, navigate the application's widgets with the left tab. Use the drop-down selectboxes on each page to display the data you would like to see.
