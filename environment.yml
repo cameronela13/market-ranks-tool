@@ -1,0 +1,11 @@
+name: market-rankings
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - streamlit
+  - snowflake-connector-python
+  - watchdog
+prefix: /Users/cameronela/envs/market-rankings
