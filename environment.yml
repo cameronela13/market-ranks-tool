@@ -8,4 +8,3 @@ dependencies:
   - streamlit
   - snowflake-connector-python
   - watchdog
-prefix: /Users/cameronela/envs/market-rankings
